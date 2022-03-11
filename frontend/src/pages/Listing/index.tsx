@@ -9,7 +9,6 @@ function Listing() {
 
   const [pageNumber, setPageNumber] = useState(0);
 
-  let movie;
   const [page, setPage] = useState<MoviePage>({
     content: [],
     last: true,
